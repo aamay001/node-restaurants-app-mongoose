@@ -118,7 +118,7 @@ app.delete('/restaurants/:id', (req, res) => {
 
 // catch-all endpoint if client makes request to non-existent endpoint
 app.use('*', function(req, res) {
-  res.status(404).json({message: 'Not Found'});
+  res.status(404).json({message: 'Looks like you\'re a bit lost! :)'});
 });
 
 // closeServer needs access to a server object, but that only
