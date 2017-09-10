@@ -9,4 +9,4 @@ deploy:
   app: hidden-plateau-17640
   on:
     repo: aamay001/node-restaurants-app-mongoose
-    branch: feature/with-tests
+    branch: master
