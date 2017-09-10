@@ -1,0 +1,12 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: 0pkAeiTCiwC6vutzePfw6R7WkAjxkDEYpLfXenTeIsDz2ZWFnn917kTYknFw5hdTyn5GxcxtPRLc8O7spTSPQvkpm3JZ90C7Rv9IEPHEWBYU90EfCMx8jLsq/Ji5T40YUBAEiGsuxezmQDfdS6qzT1hvB3Wm2QhhuOoB85w87BczYzh8cfuq2IaMMe+SIX6P1hltAVbDXWKU/JUaRKNJ9rcgG2+vxuSWRkX/uoRjBSlby+x7lHdpjFtu/LUdR09aPPllD6BCvNxPGlsjRrou8x9p/7l05tVKlWW+cre40GiRkkqCF4z9ZSBfViGRRJl3iJK1tTudrIavPLtrMM9eC2IhzPueWbIZmainxq3vmGEp/mu1MlJhT/zZYOCk98L7viPuU+zv7TrwRroFlDA08FC/Qpkp+SlOPxKPC84iiyNSmHhpynSd+89uPNbK/+jFy1SJro/z59W+vRyq0Q+DFadMhqurLW4rCsPkqINEEISbNB4t2tMVOr47v/WMVwd8SFVK1R+PhYWGSN1PppYMpEE2UDigmS/dCLL7/LTvWevIQaTdLoAZOqVzWI2PqIuuqb8NwyOTGYW8fBEGm+xBzoRJyI4OHd93d8Oz80wWDt1xmn7c1EY4Tvv6489gMs6JuMcO40U/+GDD7WgRd5DCdC/Vg7iZv8y1jc379i/FeIc=
+  app: hidden-plateau-17640
+  on:
+    repo: aamay001/node-restaurants-app-mongoose
+    branch: feature/with-tests
